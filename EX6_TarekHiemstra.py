@@ -11,16 +11,18 @@ import re
 def assignment_6(input1, input2):
     # check for correct filetype
     extension = os.path.splitext(input1)[-1].lower()
-    if extension != '.py':
+    if extension != ".py":
         return -1
 
 # by using 'with' the files automatically close after dedenting
-    with open(input1, 'r') as file1, open(input2, 'w') as file2:
+    with open(input1, "r") as file1, open(input2, "w") as file2:
         for lines in file1:
-            comments = lines.strip()
-            match = re.search("#", comments)
+            comment = lines.strip()
+            match = re.search("#", comment)
             if match:
-                file2.write(comments.rstrip() + '\n')
+                i = comment.index("#")
+                file2.write((comment[i:]).rstrip() + "\n")
+                
 
 # counting number of comments
     with open(input2, 'r') as file2:
@@ -28,4 +30,4 @@ def assignment_6(input1, input2):
         for lines in file2:
             count += 1
     return count
-#print(assignment_6('pythonfile1.py', 'pythonfile2.py'))
+#print(assignment_6("pythonfile1.py", "pythonfile2.py"))
