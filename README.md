@@ -1,6 +1,6 @@
-7 python exercises for the Metropolia course 'Introduction to Programming'
+# 7 python exercises for the Metropolia course 'Introduction to Programming'
 
-Assignment 1: Installing the Python Environment
+## Assignment 1: Installing the Python Environment
 - Install the latest distribution of Python programming environment into your computer. 
 - Open IDLE (Integrated Development Environment) for Python. 
 - Run the following commands: 
@@ -8,7 +8,7 @@ Assignment 1: Installing the Python Environment
     platform
 - Copy-paste the contents of the IDLE screen as the answer to this assignment.
 
-Assignment 2: Variables
+## Assignment 2: Variables
 Create a Python script, which does the following:
 - reads user input for name, age, and your favorite_colour to a list variable
 - uses a tuple for constant (string) values
@@ -19,7 +19,7 @@ Create a Python script, which does the following:
 Today is $thisdate. 
 My lucky number is $luckynumber." 
 
-Assignment 3: Functions
+## Assignment 3: Functions
 Write a Python function, which does the following:
 - have input parameters: [name, age]
 - asks user input for favorite_colour
@@ -38,7 +38,7 @@ My lucky number is $luckynumber."
     date
     Return the function to this assignment as "EX3_yourname.py" file. 
 
-Assignment 4: Branches (if)
+## Assignment 4: Branches (if)
 Make a copy of your Assignment 3 Python function, and modify it to do the following:
 - In addition to the Assignment 3, checks the value of $luckynumber and assigns a new variable
     $special = ‘funny’ , if $luckynumber = 0
@@ -59,7 +59,7 @@ My $special number is $luckynumber."
     Date
     Return the function to this assignment as "EX4_yourname.py" file.
     
-Assignment 5: Loops
+## Assignment 5: Loops
 Write a Python function, which does the following:
 - Input parameter is a list.
 - Checks if all values of a given list are numeric (either int, long, float, or complex). 
@@ -78,7 +78,7 @@ otherwise continue executing function.
     Test3 = [1,2,3,4,0,5];  #should return 10
 - Return the function to this assignment as "EX5_yourname.py" file.
 
-Assignment 6: Files
+## Assignment 6: Files
 Write a Python function, which saves all Python code comments to a new file:
 - Input parameters = two file names
 - The first  .py file is opened for reading. The function should first check if the file has correct type
@@ -93,7 +93,7 @@ Write a Python function, which saves all Python code comments to a new file:
     Date
 - Test and return the function to this assignment as "EX6_yourname.py" file.
 
-Assignment 7: Internet
+## Assignment 7: Internet
 This exercise uses Weather Underground API, which you can use for free up to 500 calls/day or 10 calls/minute subscription.
 You need to register to the service as developer in order to get access to the online data. 
 Read carefully the instructions provided in https://www.wunderground.com/weather/api/.
