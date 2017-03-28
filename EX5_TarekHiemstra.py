@@ -6,8 +6,6 @@
 
 def assignment_5(my_list):
     total = 0
-    numeric_items = ["<class 'int'>", "class 'long'",
-                     "class 'float'", "class 'complex'"]
     for items in my_list:
         if isinstance(items, int) == False and isinstance(items, float) == False and isinstance(items, complex) == False:
             return 0
